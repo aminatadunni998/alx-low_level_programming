@@ -16,7 +16,7 @@ while (ch <= 'z')
 putchar(ch);
 ch++;
 }
-while (CH <= 'z')
+while (CH <= 'Z')
 {
 putchar(CH);
 CH++;
