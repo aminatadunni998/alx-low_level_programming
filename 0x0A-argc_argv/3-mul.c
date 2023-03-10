@@ -7,8 +7,10 @@
  *
  * Return: the int converted from the string
  */
+
 int _atoi(char *s)
 {
+
 int i, d, n, len, f, digit;
 i = 0;
 d = 0;
@@ -57,7 +59,7 @@ return (1);
 }
 num1 = _atoi(argv[1]);
 num2 = _atoi(argv[2]);
-result = num1  *num2;
+result = num1 * num2;
 
 printf("%d\n", result);
 return (0);
